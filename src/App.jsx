@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Main from "./components/Main";
 import './App.css'
 import Blog from "./components/blog/Blog"
+import SlideShow from './components/slideShow/SlideShow';
 
 function App() {
    
@@ -17,14 +18,19 @@ function App() {
                <img src={reactLogo} className="logo react" alt="React logo" />
             </a>
          </div>
+         <hr />
          <h2>Launch CryptoConverter</h2>
 
          <Main />
-
+<hr />
          <h2> Launch blog Post</h2>
 
          <Blog />
+<hr />
+         <h2>Launch SlideShow</h2>
 
+         <SlideShow />
+<hr />
       </>
    );
 }
