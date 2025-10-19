@@ -3,8 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Main from "./components/Main";
 import './App.css'
+import Blog from "./components/blog/Blog"
 
 function App() {
+   
    return (
       <>
          <div>
@@ -15,7 +17,14 @@ function App() {
                <img src={reactLogo} className="logo react" alt="React logo" />
             </a>
          </div>
+         <h2>Launch CryptoConverter</h2>
+
          <Main />
+
+         <h2> Launch blog Post</h2>
+
+         <Blog />
+
       </>
    );
 }
