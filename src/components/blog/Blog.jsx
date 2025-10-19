@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import './blog.css';
 import Input from "./Input";
 import PostDisplay from "./PostDisplay";
 
@@ -26,7 +27,7 @@ const deletePost = (deleteIndex) => {
   }
 
   return (
-    <div className="text-center ma-20">
+    <div className="text-center ">
       <div className="mb-20">
         <Input post={post} setPost={setPost}  />
         <button data-testid="create-button" className="mt-10" onClick={handleClick}>

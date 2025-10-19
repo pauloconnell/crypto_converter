@@ -1,6 +1,6 @@
 import React from "react";
 
-function PostDisplay({posts, setPosts, deletePost}) {
+function PostDisplay({posts, deletePost}) {
 
   
 

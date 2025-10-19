@@ -1,0 +1,14 @@
+.post-box {
+    background-color: #6a2fa1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 1.2em;
+    min-width: fit-content;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+
+posts-section {
+    max-width: 1200px;
+}
