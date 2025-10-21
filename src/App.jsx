@@ -21,21 +21,28 @@ function App() {
             </a>
          </div>
          <hr />
+         <section>
          <h2>Launch CryptoConverter</h2>
 
          <Main />
+         </section>
 <hr />
+         <section>
          <h2> Launch blog Post</h2>
 
          <Blog />
+         </section>
 <hr />
+         <section>
          <h2>Launch SlideShow</h2>
 
          <SlideShow />
+         </section>
 <hr />
-
+         <section>
          <h2>Launch WordOmitter</h2>
          <WordOmitter />   
+         </section>
       </>
    );
 }
