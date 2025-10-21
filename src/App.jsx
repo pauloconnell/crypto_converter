@@ -5,6 +5,8 @@ import Main from "./components/Main";
 import './App.css'
 import Blog from "./components/blog/Blog"
 import SlideShow from './components/slideShow/SlideShow';
+import { WordOmitter } from './components/wordOmitter/WordOmitter';
+
 
 function App() {
    
@@ -31,6 +33,9 @@ function App() {
 
          <SlideShow />
 <hr />
+
+         <h2>Launch WordOmitter</h2>
+         <WordOmitter />   
       </>
    );
 }
