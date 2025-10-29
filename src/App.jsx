@@ -7,6 +7,7 @@ import Blog from "./components/blog/Blog"
 import SlideShow from './components/slideShow/SlideShow';
 import WordOmitter from './components/wordOmitter/WordOmitter';
 import ContactForm from './components/contactForm/ContactForm';
+import EmployeeValidationForm from './components/employeeValidationForm/EmployeeValidationForm';
 
 
 function App() {
@@ -48,6 +49,11 @@ function App() {
          <section>
          <h2>Launch Contact Form</h2>
          <ContactForm />
+         </section>
+           <hr />
+         <section>
+         <h2>Launch Employee Validation Form</h2>
+         <EmployeeValidationForm />
          </section>
       </>
    );
