@@ -76,4 +76,4 @@ function WordOmitter() {
   );
 }
 
-export { WordOmitter };
+export default WordOmitter ;

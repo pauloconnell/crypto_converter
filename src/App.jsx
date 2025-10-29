@@ -5,7 +5,8 @@ import Main from "./components/Main";
 import './App.css'
 import Blog from "./components/blog/Blog"
 import SlideShow from './components/slideShow/SlideShow';
-import { WordOmitter } from './components/wordOmitter/WordOmitter';
+import WordOmitter from './components/wordOmitter/WordOmitter';
+import ContactForm from './components/contactForm/ContactForm';
 
 
 function App() {
@@ -42,6 +43,11 @@ function App() {
          <section>
          <h2>Launch WordOmitter</h2>
          <WordOmitter />   
+         </section>
+         <hr />
+         <section>
+         <h2>Launch Contact Form</h2>
+         <ContactForm />
          </section>
       </>
    );
