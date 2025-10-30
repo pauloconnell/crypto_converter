@@ -30,10 +30,10 @@ let{name, upvotes, downvotes} = data;
       <div className={`pa-10 w-300 card ${styles.card}`}>
         <h2>{name}</h2>
         <div className="flex my-30 mx-0 ">
-          <button className="py-10 px-15" data-testid="upvote-btn-0" onClick={handleUp}>
+          <button className={`${styles.button} py-10 px-15`} data-testid="upvote-btn-0" onClick={handleUp}>
             👍 Upvote
           </button>
-          <button className="py-10 px-15 danger" data-testid="downvote-btn-0" onClick={handleDown}>
+          <button className={`${styles.button} py-10 px-15 danger`} data-testid="downvote-btn-0" onClick={handleDown}>
             👎 Downvote
           </button>
         </div>
