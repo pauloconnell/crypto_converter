@@ -1,0 +1,11 @@
+.card {
+    background-color: rgb(5, 89, 89);
+    margin:10px;
+    max-width: fit-content;
+    border-radius: 5px;
+    border:1px solid black;
+}
+
+.button {
+    
+}

@@ -8,6 +8,7 @@ import SlideShow from './components/slideShow/SlideShow';
 import WordOmitter from './components/wordOmitter/WordOmitter';
 import ContactForm from './components/contactForm/ContactForm';
 import EmployeeValidationForm from './components/employeeValidationForm/EmployeeValidationForm';
+import CodeReviewFeedback from './components/codeReviewFeedback/CodeReviewFeedback';
 
 
 function App() {
@@ -54,6 +55,11 @@ function App() {
          <section>
          <h2>Launch Employee Validation Form</h2>
          <EmployeeValidationForm />
+         </section>
+             <hr />
+         <section>
+         <h2>Launch Code Review Feedback</h2>
+         <CodeReviewFeedback />
          </section>
       </>
    );
