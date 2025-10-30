@@ -13,8 +13,8 @@ const FeedbackSystem = () => {
    return (
       <div className="my-0 mx-auto text-center w-mx-1200">
          <div className="flex wrap justify-content-center mt-30 gap-30">
-            {votes.map((vote) => (
-               <VoteModule data={vote} setVotes={setVotes} key={vote.name}></VoteModule>
+            {votes.map((vote, index) => (
+               <VoteModule data={vote} index={index} setVotes={setVotes} key={vote.name}></VoteModule>
             ))}
          </div>
       </div>
