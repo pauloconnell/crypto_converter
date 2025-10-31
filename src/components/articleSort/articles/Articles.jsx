@@ -17,8 +17,8 @@ function Articles({ articles = [] }) {
           {articles.map((article, index) => (
             <tr data-testid="article" key={index}>
               <td data-testid="article-title">{article.title}</td>
-              <td data-testid="article-upvotes"> {article.upvotes}</td>
-              <td data-testid="article-date"> {article.date}</td>
+              <td data-testid="article-upvotes">{article.upvotes}</td>
+              <td data-testid="article-date">{article.date}</td>
                 </tr>
 
             ))}
