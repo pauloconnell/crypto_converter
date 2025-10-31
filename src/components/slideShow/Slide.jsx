@@ -1,7 +1,7 @@
 import React from "react";
 
 function Slide({ slide }) {
-  console.log('slide got ', {slide})
+ 
   return ( 
  
  

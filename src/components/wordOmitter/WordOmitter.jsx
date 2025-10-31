@@ -35,7 +35,7 @@ function WordOmitter() {
   };
 
   const getProcessedText = () => {
-    console.log("called", inputText, omitWords)
+    //console.log("called", inputText, omitWords)
     if(!omitWords){
       setOutput(inputText);
       return;

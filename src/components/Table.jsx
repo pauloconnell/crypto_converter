@@ -1,15 +1,15 @@
 import React from "react";
 import { cryptocurrencyList } from "../cryptocurrency-list.js";
-console.log(cryptocurrencyList)
+
 
 
 function Table({amount, anyError}) {
 
   const totalCoins =(rate)=>{
-    console.log("calculating ", rate, " = ", Number(crypto.rate) * Number(amount))
+   // console.log("calculating ", rate, " = ", Number(crypto.rate) * Number(amount))
     
     let temp=Number(rate) * Number(amount)
-    console.log({temp})
+    
     if(!temp ) temp=0
     return temp.toFixed(8);
   }

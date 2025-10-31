@@ -16,13 +16,13 @@ const [showDate, setShowDate] = useState(true);
 
 useEffect(() => {     // watching name change trigger parent div length(children) to change as warning shows/hides
   const el = document.querySelector('[data-testid="input-name"]');
- console.log("name changed, now length is : ", el.children.length);
+ //console.log("name changed, now length is : ", el.children.length);
 }, [name]);
 
 
 const nameChange=(e) => {
   let testName=e.target.value;
-  console.log("test sent:", testName)
+  
 
   setShowName(false);   // clear error message for test
 
@@ -45,7 +45,7 @@ const nameChange=(e) => {
 
 const emailChange=(e) => {
   let testEmail=e.target.value;
-  console.log("email changed",email, e.target.value)
+ // console.log("email changed",email, e.target.value)
   
 
   const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -64,7 +64,7 @@ const emailChange=(e) => {
 const idChange=(e) => {
   let testId=e.target.value;
   let isNumber = /^[0-9]+$/;
-  console.log("id changed", testId)
+ 
   if(testId.length!=6){
     setShowId(true);
   }else setShowId(false)
@@ -77,9 +77,9 @@ const idChange=(e) => {
 }
 
 const dateChange=(e)=>{
-  console.log(e.target.value, typeof(e.target.value))
+ // console.log(e.target.value, typeof(e.target.value))
   let testDate= new Date(e.target.value);
-  console.log(testDate.getTime()," ", new Date().getTime())
+  //console.log(testDate.getTime()," ", new Date().getTime())
   if(!isNaN(testDate.getTime())){
     if(testDate.getTime() < new Date().getTime()){
       setDate(testDate) 

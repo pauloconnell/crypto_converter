@@ -11,7 +11,7 @@ function Blog() {
 
   // onclick validate input
 const handleClick = () => {
-  console.log(post.title, post.description)
+
   if(post.title.length>0 && post.description.length>0){
     // create post
     setPosts((prevPosts)=> [...prevPosts, ({title: post.title, description: post.description})]);

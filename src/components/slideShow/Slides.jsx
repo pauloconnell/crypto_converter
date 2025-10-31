@@ -17,7 +17,7 @@ function Slides({ slides }) {
   const handleNext = () => {
     
     setCounter(prev => {
-      console.log({prev}, slides.length)
+     // console.log({prev}, slides.length)
       // if (prev == slides.length - 2){
       //   setShowNext(false)
       // }else setShowNext(true)

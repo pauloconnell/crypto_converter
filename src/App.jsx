@@ -9,6 +9,8 @@ import WordOmitter from './components/wordOmitter/WordOmitter';
 import ContactForm from './components/contactForm/ContactForm';
 import EmployeeValidationForm from './components/employeeValidationForm/EmployeeValidationForm';
 import CodeReviewFeedback from './components/codeReviewFeedback/CodeReviewFeedback';
+import ArticleSort from './components/articleSort/ArticleSort';
+import { ARTICLES_DATA } from './data/articlesData';
 
 
 function App() {
@@ -60,6 +62,10 @@ function App() {
          <section>
          <h2>Launch Code Review Feedback</h2>
          <CodeReviewFeedback />
+         </section>
+          <section>
+         <h2>Launch Article Sort</h2>
+         <ArticleSort articles={ARTICLES_DATA} />
          </section>
       </>
    );

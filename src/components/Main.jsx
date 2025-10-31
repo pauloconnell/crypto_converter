@@ -18,7 +18,7 @@ let anyError = false;                   // if any error, send error state to tab
 
   const handleInput = (e)=>{
 
-    console.log(e.target.value)
+ 
     const inputValue = e.target.value;
 
     if (inputValue === "" || isNaN(Number(inputValue))) {
